@@ -7,6 +7,7 @@ import { Nav, NavItem } from './components/Nav'
 import Alert from './components/Alert'
 import Badge from './components/Badge'
 import Card from './components/Card'
+import Form from './components/Form'
 
 class App extends Component {
   render() {
@@ -22,9 +23,13 @@ class App extends Component {
       <Badge title="primary" message="122"/>
       <Badge title="primary"/>
       </div>
-      
+
       <div>
       <Card title="Card Title" message="This is a component card" type="primary" btnMessage="Click ME" imgSrc="#" href="#"/>
+      </div>
+
+      <div>
+        <Form type="primary"/>
       </div>
 
         <div className='mt-3'>
